@@ -1,4 +1,4 @@
-# WebPageStatusCheck Web App
+# WebAppStatusCheck Web App
 A web app that reads a list of urls and displays their current status.
 
 ### Screenshot
@@ -12,3 +12,12 @@ The current status of each url is checked every 60 seconds (interval can be chan
 If one of the urls gives a timeout it may initially take 60 seconds for the web server to load.
 
 A search is also included (can be disabled via settings.py) which checks if a user submitted URL is contained in the list of known URLs.
+
+Note: This project is clone from [emojipeach](https://github.com/emojipeach/webpagestatuscheck_flask)
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+**New Features:**
+
+-- Mail notification added. Update SMTP param in settings.py file.
